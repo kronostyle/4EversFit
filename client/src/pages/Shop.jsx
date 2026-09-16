@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
+// ... dentro del map()
+<Link to={`/producto/${product.id}`} key={product.id} className="group cursor-pointer..."></Link>
 export default function Shop() {
   const [activeCategory, setActiveCategory] = useState('Todos');
 
