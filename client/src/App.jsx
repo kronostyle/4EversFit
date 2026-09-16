@@ -10,6 +10,7 @@ import Trainers from './pages/Trainers';
 import Plans from './pages/Plans';
 import Contact from './pages/Contact';
 import Shop from './pages/Shop'; // Importa la página de la tienda
+import ProductDetail from './pages/ProductDetail'; // Importa la página de detalle del producto
 
 
 // Componente auxiliar para manejar el retraso de la animación de 1 segundo al cambiar de ruta
@@ -37,6 +38,7 @@ function AnimatedRoutes() {
         <Route path="/plans" element={<Plans />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/shop" element={<Shop />} />
+        <Route path="/producto/:id" element={<ProductDetail />} />
       </Routes>
 
       
